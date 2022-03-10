@@ -1,0 +1,32 @@
+.logo{
+    position: center;
+}
+.basic{
+    height: 99%;
+    width: 99%;
+    background-color: #D5ECC2;
+    background-image: url('./Image/Component\ 16\ –\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button--pandora {
+	background: #000;
+	font-weight: 700;
+	padding: 0;
+	border-radius: 5px;
+}
+
+.button--pandora span {
+	display: block;
+	background: #a7a7a7;
+	padding: 1.5rem 2rem;
+	border: 1px solid #000;
+	border-radius: 5px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.button--pandora:hover span {
+	transform: translate3d(-8px, -8px, 0);
+}
